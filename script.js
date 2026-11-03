@@ -23,7 +23,7 @@ formulario.addEventListener("submit", function(event) {
     const texto = document.createElement("span");
     texto.textContent = textoTarea;
 
-    // Crear el botón para completar
+    // Crear el botón para marcar como completada
     const botonCompletar = document.createElement("button");
     botonCompletar.textContent = "Completar";
 
