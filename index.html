@@ -23,12 +23,14 @@
                     type="text"
                     id="entrada-tarea"
                     placeholder="Escribe una tarea"
+                    aria-label="Nombre de la nueva tarea"
+                    autocomplete="off"
                     required
                 >
-                <button type="submit">Agregar tarea</button>
+                <button type="submit" id="boton-agregar">Agregar tarea</button>
             </form>
 
-            <ul id="lista-tareas">
+            <ul id="lista-tareas" aria-label="Lista de tareas pendientes">
                 <!-- Las tareas se mostrarán aquí -->
             </ul>
         </section>
