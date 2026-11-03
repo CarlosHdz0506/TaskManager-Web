@@ -32,7 +32,7 @@ formulario.addEventListener("submit", function(event) {
         texto.style.color = "#666666";
     });
 
-    // Crear el botón para eliminar
+    // Crear el botón para eliminar elemento de la lista
     const botonEliminar = document.createElement("button");
     botonEliminar.textContent = "Eliminar";
 
