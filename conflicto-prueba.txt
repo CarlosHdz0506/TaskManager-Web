@@ -1,1 +1,1 @@
-Texto original para realizar la prueba de conflicto.
+Texto modificado desde la rama conflicto-a.
