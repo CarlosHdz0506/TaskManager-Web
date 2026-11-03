@@ -1,1 +1,1 @@
-Texto modificado desde la rama conflicto-a.
+Texto de prueba resuelto, integrando los cambios de ambas ramas.
