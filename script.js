@@ -28,8 +28,17 @@ formulario.addEventListener("submit", function(event) {
     botonCompletar.textContent = "Completar";
 
     botonCompletar.addEventListener("click", function() {
-        texto.style.textDecoration = "line-through";
-        texto.style.color = "#666666";
+        if (texto.style.textDecoration === "line-through") {
+            // Regresar la tarea al estado pendiente
+            texto.style.textDecoration = "none";
+            texto.style.color = "";
+            botonCompletar.textContent = "Completar";
+        } else {
+            // Marcar la tarea como completada
+            texto.style.textDecoration = "line-through";
+            texto.style.color = "#666666";
+            botonCompletar.textContent = "Desmarcar";
+        }
     });
 
     // Crear el botón para eliminar elemento de la lista
