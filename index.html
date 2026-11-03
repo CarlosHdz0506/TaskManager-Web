@@ -1,12 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskManager Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TaskManager Web</h1>
-    <p>Proyecto de administración de tareas pendientes.</p>
+    <header>
+        <h1>TaskManager Web</h1>
+        <p>Organiza tus actividades de manera sencilla.</p>
+    </header>
+
+    <main>
+        <section id="seccion-tareas">
+            <h2>Mis tareas</h2>
+
+            <form id="formulario-tarea">
+                <label for="entrada-tarea">Nueva tarea:</label>
+                <input
+                    type="text"
+                    id="entrada-tarea"
+                    placeholder="Escribe una tarea"
+                    required
+                >
+                <button type="submit">Agregar tarea</button>
+            </form>
+
+            <ul id="lista-tareas">
+                <!-- Las tareas se mostrarán aquí -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>TaskManager Web - Proyecto colaborativo</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
