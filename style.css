@@ -91,3 +91,53 @@ footer {
     padding: 20px;
     color: #666666;
 }
+
+
+/* Elementos de la lista de tareas */
+#lista-tareas li {
+    background-color: #f4f6f8;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+}
+
+/* Efecto al seleccionar el campo de texto */
+#entrada-tarea:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 600px) {
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    main {
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    #seccion-tareas {
+        padding: 18px;
+    }
+
+    #entrada-tarea,
+    #boton-agregar {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
