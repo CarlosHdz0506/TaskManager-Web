@@ -1,1 +1,1 @@
-git add conflicto-prueba.txt
+Texto modificado desde la rama conflicto-b.
